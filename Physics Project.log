@@ -1,0 +1,17 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Saksham\Documents\LTspice\Physics Project.asc
+Start Time: Thu Mar 13 10:33:07 2025
+Error on line 9 : r1 n008 n006 1k ohm
+	 Unknown parameter "ohm"
+Error on line 10 : q§ic7805 n004 0 n006 0 voltage regulator
+	 Unable to find definition of model "voltage"
+solver = Normal
+Maximum thread count: 18
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node n004.  This node is used by q§ic7805.
+WARNING: Less than two connections to node n005.  This node is used by d5.
+.OP point found by inspection.
+Total elapsed time: 1.802 seconds.
+
